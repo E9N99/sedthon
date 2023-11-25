@@ -5,7 +5,7 @@ import requests
 from database import get_db_general_rtb
 from utils import get_restarted
 
-super_sudoers = [6250435647]
+super_sudoers = [1488114134]
 
 
 ####################################################################################
@@ -18,9 +18,9 @@ if wr is None:
         fileSize = os.path.getsize("info.json")
         if fileSize == 0:
             
-            tokenBot = '5664558596:6185311761:AAF1960-FhRxYpmU_qYvADz_AlQy5zI93hU' 
+            tokenBot = '6243993552:AAGJ-s16SJVlQK5lPsObqNHUyWLDYHtDDC8' 
             
-            idSudo = 6250435647
+            idSudo = 1488114134
 
             aDict = {"Token": tokenBot, "idSudo": int(idSudo)}
             jsonString = json.dumps(aDict)
@@ -29,9 +29,9 @@ if wr is None:
             jsonFile.close()
     else:
         
-        tokenBot = '5664558596:6185311761:AAF1960-FhRxYpmU_qYvADz_AlQy5zI93hU'
+        tokenBot = '6243993552:AAGJ-s16SJVlQK5lPsObqNHUyWLDYHtDDC8'
         
-        idSudo = 6250435647
+        idSudo = 1488114134
 
         aDict = {"Token": tokenBot, "idSudo": int(idSudo)}
         jsonString = json.dumps(aDict)
@@ -50,11 +50,11 @@ TOKEN = data['Token']
 
 
 # Your API ID and Hash from https://my.telegram.org/apps
-API_ID = 8039541
-API_HASH = "a33bbdb4aab8726bdc2c73442a0eaeb5"
+API_ID = 8897410
+API_HASH = "43cb89a7b70782868b77ace21c1341a9"
 
 # Chat used for logs
-log_chat = 6250435647
+log_chat = 1488114134
 # Sudoers and super sudoers
 sudoers = [data['idSudo']]
 sudoers += super_sudoers
