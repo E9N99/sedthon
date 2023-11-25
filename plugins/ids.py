@@ -7,7 +7,7 @@ from localization import use_chat_lang
 from config import get_bot_information
 from plugins.admin import get_available_adminstrator
 from plugins.rtp_function import get_Rank
-from plugins import app
+import app
 #       #             #  #####  #####      ####
 #        #           #  #         #            #     #
 #          #        #  #####  #            #####    
