@@ -29,7 +29,7 @@ from plugins.rwayat import rwaiat
 from plugins.sudos import test_speed, upgrade, restart
 from plugins.wait import wait_all
 from plugins.weather import weather
-from plugins.youtube import youtube_main
+#from plugins.youtube import youtube_main
 
 
 @Client.on_message(filters.private & ~filters.regex("^/"))
