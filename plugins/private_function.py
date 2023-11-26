@@ -17,7 +17,7 @@ from plugins.developer import developersrep, developersuser, undevelopersrep, un
     seconddevelopersuser, secondundevelopersrep, secondundeveloperuser
 from plugins.games import games
 from plugins.general import replay_global_test, gunbanuser, gunbanrep, gmuteuser, gmuterep, gbanuser, gbanrep
-from plugins.ids import ids_private
+#from plugins.ids import ids_private
 from plugins.keyboard_private import *
 from plugins.music import music
 from plugins.private_ban import privbanrep, privbanuser, privunbanrep, privunbanuser, priban_user_test
