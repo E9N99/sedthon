@@ -7,7 +7,7 @@ from database import del_db_wait, set_db_wait, set_db_greply, del_db_greply, set
     del_db_replygroup, set_db_addlinkgroup, set_db_addwelcomegroup, set_db_addbyegroup, del_db_addcommand, \
     set_db_addcommand, del_db_addcustomid, set_db_addcustomid, set_db_mypointgame, set_db_mymessage
 from plugins.general import wait_test
-from plugins.ids import get_mypoint
+#from plugins.ids import get_mypoint
 from plugins.keyboard_private import broadcast_group, broadcast_user, broadcast_forward_group, broadcast_forward_user, \
     broadcast_pin_user, broadcast_forward_pin_user
 from plugins.sudos import restart
