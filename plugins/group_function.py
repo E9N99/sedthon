@@ -18,7 +18,7 @@ from plugins.general import *
 from plugins.developer import *
 from plugins.group_rtb import *
 from plugins.hals import *
-from plugins.ids import ids, get_mypoint, get_mymessage, get_mycontact
+#from plugins.ids import ids, get_mypoint, get_mymessage, get_mycontact
 from plugins.keyboard_private import lock_lockbroadcast_test, get_num_for_user_and_group, lock_lockgenyoutube_test
 from plugins.locks import *
 from plugins.music import music 
