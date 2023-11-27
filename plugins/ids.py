@@ -8,7 +8,7 @@ from config import get_bot_information
 from plugins.admin import get_available_adminstrator
 from plugins.rtp_function import get_Rank
 from pyrogram import Client, filters
-
+from utils import commands
 app = Client("my_account")
 #       #             #  #####  #####      ####
 #        #           #  #         #            #     #
